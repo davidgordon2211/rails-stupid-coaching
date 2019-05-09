@@ -1,0 +1,51 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$azure: #0496FF;
+$dark_raspberry: #8F2D56;
+$ruby: #D81159;
+$yellow_orange: #FFBC42;
+$sapphire_blue: #006BA6;
+
+html {
+  background-color: $sapphire_blue;
+}
+
+p {
+  color: $azure;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+h1 {
+  color: $dark_raspberry;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  color: $yellow_orange;
+  font-size: 40px;
+}
+
+#button_ask {
+  background-color: $ruby;
+  color: $yellow_orange;
+  font-weight: bold;
+  width: 250px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+#text-box {
+  color: $sapphire_blue;
+  width: 500px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  align-content: center;
+  margin-top: 200px;
+}
